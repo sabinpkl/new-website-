@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+header {
+    background: #fff;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+    color: #333;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+
+.logo1 {
+    padding-left: 5rem;
+
+}
+
+.logo1 img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 2px;
+    margin-left: 18rem;
+}
+
+
+.now {
+    margin-right: 18rem;
+    color: white;
+    background-color: rgb(8, 154, 86);
+    height: 3rem;
+    width: 12rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.contact-container {
+
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    height: auto;
+    background-color: rgb(237, 236, 236);
+    padding-top: 2rem;
+
+
+
+
+
+
+}
+
+.form1 {
+    display: grid;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #faf8f8;
+    padding: 40px;
+    margin-bottom: 2rem;
+
+
+
+
+
+
+}
+.inputdiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 4rem;
+    justify-content: center;
+
+    /* align-items: center; */
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: white;
+
+}
+
+.form2 input,
+textarea {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-family: monospace;
+    cursor: pointer;
+
+}
+
+
+.form2 label {
+    margin-top: 1rem;
+}
+
+.buttonA {
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgb(8, 154, 86);
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+
+
+
+}
+
+.paraform {
+    font-size: 3rem;
+    color: #09823d;
+    margin-bottom: 1rem;
+    
+
+}
+
+
+.form1 input {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: monospace;
+    cursor: pointer;
+   
+}
+
+.button1 {
+    padding: 1rem ;
+    border-radius: 0.8rem;
+    color: white;
+    background-color: rgb(8, 154, 86);
+    border: none;
+    cursor: pointer;
+    margin: 1rem;
+    font-size: larger;
+
+
+
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+.content {
+    margin-top: 10rem;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    font-size: 80px;
+    color: rgb(4, 96, 45);
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.para {
+    font-size: 28px;
+    gap: 2rem;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.btn1 {
+    border-radius: 6px;
+    background: linear-gradient(to right, #0a8f41, #0987ef);
+    color: white;
+    padding: 15px 15px;
+
+    cursor: pointer;
+    font-size: medium;
+    border: none;
+
+
+
+}
+
+.btn2 {
+    border-radius: 6px;
+    border-color: rgb(37, 210, 37);
+    /* border: none; */
+    background-color: white;
+    padding: 15px 15px;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: medium;
+    color: rgb(31, 202, 31);
+
+}
+
+.btn2:hover{
+    background-color: rgb(16, 144, 16);
+    color: white;
+    border-color: rgb(54, 198, 54);
+
+    
+
+}
+.form3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+    flex-direction: column;
+
+
+
+}
+
+
+.iconA {
+    display: flex;
+    margin: 2rem;
+
+
+}
+
+.icon svg {
+    width: 70px;
+    height: auto;
+    justify-content: space-between;
+    margin-right: 10rem;
+}
+
+.no {
+    margin-top: 2rem;
+}
+
+.kind {
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.campaign1 {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+
+
+}
+
+
+
+
+
+/*----------Secondpart----------------*/
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.container1 h2 {
+    padding: 1rem;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.cards {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.card {
+    background: white;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.card:hover {
+    transition: transform 0.3s ease;
+    border-top: 2px solid #257be5;
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+/*-------Thirdpart-----*/
+.container2 {
+    background: #faf8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 60vh;
+}
+
+.icon {
+    width: 50px;
+    margin: auto;
+}
+
+.icon1 {
+    display: flex;
+    background: #222;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+h4 {
+
+
+    font-size: 1.5rem;
+    color: aliceblue;
+
+
+}
+
+h3 {
+    font-family: cursive;
+}
+
+
+
+.para {
+    margin-bottom: 2rem;
+
+}
+
+/*-------Fourth part-----*/
+
+.container3 {
+    background: linear-gradient(to right, #00c853, #2196f3);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 60vh;
+    color: white;
+
+}
+
+.card1 {
+    gap: 4rem;
+}
+
+.fourth-head {
+
+    padding: 1rem;
+
+
+
+}
+
+.fourth {
+    font-size: 48px;
+
+
+}
+
+.title {
+    color: white;
+}
+
+/*-------Fifth part-----*/
+.container4 {
+
+    display: flex;
+    gap: 80px;
+    padding: 1rem;
+    border-bottom: 1px solid;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.fifthead {
+
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+
+ul li {
+    list-style: none;
+    color: #040f1d;
+
+
+}
+
+.copy {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
