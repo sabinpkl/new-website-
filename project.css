@@ -19,7 +19,7 @@ header {
     height: auto;
     position: fixed;
     width: 100%;
-    padding: 2rem;
+    
     color: #333;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
@@ -27,6 +27,8 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 
 
 
